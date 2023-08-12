@@ -52,7 +52,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="THE PORN HUB",
+                text=" GROUP ",
                 url=f"https://t.me/tamilauntyandboyoriginal",
             )
         ],

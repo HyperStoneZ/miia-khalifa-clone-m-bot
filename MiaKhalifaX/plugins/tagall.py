@@ -141,7 +141,7 @@ TAGSRT = [ " **ரொம்ப நாளை பண்ணுங்க பொண�
            " **𝐆𝐨𝐨𝐝 𝐍8 ** ",
            ]
 
-@app.on_message(filters.command(["mention", "all", "tagmember"], prefixes=["/", "@", "#"]))
+@app.on_message(filters.command(["nothing", "waste", "worst"], prefixes=["/", "@", "#"]))
 async def mentionall(client, message):
     chat_id = message.chat.id
     if message.chat.type == "private":
